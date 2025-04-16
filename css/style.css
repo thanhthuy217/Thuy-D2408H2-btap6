@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: arial; font-size: 16px;color:burlywood;margin: 0
+}
+.banner{
+	width: 100%;min-height: 500px;position: relative
+}
+.top-bar{
+	width: 100%;height: 50px;border-bottom: 1px solid ;color:#E5E5E5;line-height: 50px;position:absolute;left: 0;top: 0;z-index: 10
+}
+header{
+	width: 100%;heght:80px;position: absolute;left: 0;top: 50px;z-index: 50;z-index: 10
+}
+.logo a{
+	text-decoration:none; font-size:35px; font-weight: bolder;color: #f3df2a
+}
+.logo a:hover{
+	color:red
+}
+.menu{
+	padding-top: 34px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;text-transform: uppercase;color: #D5D5D5;display: block
+}
+.menu ul li a:hover{
+	background-color:darkkhaki;color:aqua
+}
+/*xong phan drop down*/
+.menu ul li{
+	position: relative
+}
+.menu ul li .drop-down{
+	position: absolute;left: 0;top:100%;display: flex;flex-direction: column;width: 220px;background-color: rgba(0,0,0,0,3);display: none
+}
+.menu .drop-down li{
+	border-bottom: 1px solid #D7D7D7
+}
+.menu ul li:hover .drop-down{
+	display: block
+}
+.banner{
+	width: 100%;min-height: 700px;position: relative
+}
+.cover{
+	width: 100%;heght:100%;position: absolute;left: 0;top: 0;color: rgba(0,0,0,0,3)
+}
+
